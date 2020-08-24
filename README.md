@@ -1,36 +1,36 @@
-## Versiones
+## Versions
 * Ruby 2.6.0
 * Rails 6.0.2.1
 * Yarn 1.21.1
 * Nodejs 10.14.1
 
-## Instalación
+## Installation
 
-`bundler install`: Instalar gemas.
-`yarn install`: Instalar paquetes js.
+`bundler install`: Intall gems.
+`yarn install`: Install js packages.
 
 ### Masterkey
-Solicitar la key del proyecto y crear el archivo `config/master.key`
+Project key request and create file`config/master.key`
 
-### Base de datos
+### Data base
 * PostgreSQL
 
-Para crear la base de datos:
+Database creation:
 ```
 rails db:create
 rails db:migrate
 rails db:seed
 ```
 
-## Ejecución
-Para la ejecución del proyecto se debe tener instalado `overmind` y ejecutar el siguiente comando:
+## Ejecution
+Must have `overmind` installed and run the following comman:
 
 ```
 overmind start
 ```
 
 ## Test
-El proyecto utiliza `rspec 3.9`. Para correr los test:
+To run tests we use `rspec 3.9`  :
 ```
 rspec .
 ```
